@@ -1,0 +1,456 @@
+{
+"width": 1024,
+"height": 1984,
+"nextlevel": "01-tutorial",
+"entrance": {
+	"position": {
+        "x": 64,
+		"y": 64
+	}
+},
+"exit": {
+	"position": {
+		"x": 32,
+		"y": 1856
+	}
+},
+"objects": [
+    {
+      "class": "block-moving",
+
+      "position": {
+        "x": 260,
+        "y": 512
+      },
+
+      "size": {
+        "width": 2,
+        "height": 1
+      },
+
+      "behavior": {
+        "speed": {
+          "x": 128
+        },
+
+        "moves": [
+          {
+            "x": -64,
+            "y": 0
+          },
+
+          {
+            "x": 128,
+            "y": 0
+          },
+
+          {
+            "x": -64,
+            "y": 0
+          }
+        ]
+      }
+    },
+
+    {
+        "class": "block-moving",
+
+        "position": {
+            "x": 0,
+            "y": 512
+        },
+
+        "size": {
+            "width": 2
+        },
+
+        "behavior": {
+            "speed": {
+                "y": 64,
+                "x": 64
+            },
+
+            "moves": [
+                {
+                    "x": 128,
+                    "y": 128
+                },
+
+                {
+                    "x": 128
+                },
+
+                {
+                    "x": -128
+                },
+
+                {
+                    "x": -128,
+                    "y": -128
+                }
+            ]
+        }
+    },
+
+    {
+        "class": "addon",
+        "type": "shield",
+
+        "position": {
+            "x": 256,
+            "y": 64
+        }
+    },
+
+    {
+        "class": "bonus",
+        "type": "battery",
+
+        "position": {
+            "x": 936,
+            "y": 128
+        }
+    },
+
+    {
+        "class": "addon",
+        "type": "speed",
+        
+        "position": {
+            "x": 936,
+            "y": 340
+        }
+    },
+ 
+    {
+      "class": "enemy-tree",
+      
+      "position": {
+        "x": 448,
+        "y": 24
+      },
+
+      "behavior": {
+        "class": "behavior-static"
+      }
+    },
+
+    {
+        "class": "save",
+
+        "position": {
+            "x": 704,
+            "y": 192
+        }
+    },
+ 
+    {
+      "class": "enemy-tree",
+      
+      "position": {
+        "x": 832,
+        "y": 792
+      },
+
+      "behavior": {
+        "class": "behavior-static"
+      }
+    },
+
+    {
+        "class": "block-moving",
+
+        "position": {
+            "x": 704,
+            "y": 1048
+        },
+
+        "size": {
+            "width": 1
+        },
+
+        "behavior": {
+            "speed": {
+                "y": 384
+            },
+
+            "moves": [
+                {
+                    "y": 64
+                },
+
+                {
+                    "y": -64
+                }
+            ]
+        }
+    },
+
+    {
+        "class": "block-moving",
+
+        "position": {
+            "x": 576,
+            "y": 1176
+        },
+
+        "behavior": {
+            "speed": {
+                "y": 256
+            },
+
+            "moves": [
+                {
+                    "y": 128
+                },
+
+                {
+                    "y": -128
+                }
+            ]
+        }
+    },
+
+    {
+        "class": "save",
+        "position": {
+            "x": 960,
+            "y": 1040
+        }
+    },
+
+    {
+        "class": "switch",
+        "position": {
+            "x": 384,
+            "y": 1152
+        },
+
+        "timeout": 10,
+        "door": 1
+    },
+
+    {
+        "class": "switch",
+        "position": {
+            "x": 384,
+            "y": 1216
+        },
+
+        "timeout": 10,
+        "door": 1
+    },
+
+    {
+        "class": "switch",
+        "position": {
+            "x": 384,
+            "y": 1280
+        },
+
+        "timeout": 10,
+        "door": 1
+    },
+
+    {
+        "class": "switch",
+        "position": {
+            "x": 384,
+            "y": 1344
+        },
+
+        "timeout": 10,
+        "door": 1
+    },
+
+    {
+        "class": "addon",
+        "type": "speed",
+
+        "position": {
+            "x": 384,
+            "y": 1408
+        }
+    },
+
+    {
+        "class": "door",
+        "number": 1,
+
+        "position": {
+            "x": 768,
+            "y": 1472
+        }
+    },
+
+    {
+      "class": "enemy-sheep",
+      
+      "position": {
+        "x": 64,
+        "y": 1374
+      },
+
+      "behavior": {
+        "class": "behavior-automated",
+
+        "speed": {
+          "x": 256
+        },
+
+        "moves": [
+          {
+            "x": 128,
+            "y": 0
+          },
+
+          {
+            "x": -128,
+            "y": 0
+          }
+        ]
+      }
+    },
+  
+    {
+      "class": "enemy-tree",
+      
+      "position": {
+        "x": 384,
+        "y": 1623
+      },
+
+      "behavior": {
+        "class": "behavior-static"
+      }
+    },
+ 
+    {
+      "class": "enemy-tree",
+      
+      "position": {
+        "x": 256,
+        "y": 1687
+      },
+
+      "behavior": {
+        "class": "behavior-static"
+      }
+    },
+ 
+    {
+      "class": "enemy-tree",
+      
+      "position": {
+        "x": 128,
+        "y": 1751
+      },
+
+      "behavior": {
+        "class": "behavior-static"
+      }
+    }
+
+],
+"tiles": [
+        {
+            "class": "com.mbresson.betaform.LevelTile",
+            "x": 0,
+            "y": 0,
+            "width": 16,
+            "height": 1,
+            "type": "normal"
+        },
+
+        {
+            "x": 640,
+            "y": 64,
+            "width": 6
+        },
+
+        {
+            "x": 896,
+            "y": 256,
+            "width": 2
+        },
+
+        {
+            "x": 704,
+            "y": 128
+        },
+
+        {
+            "x": 768,
+            "y": 448,
+            "width": 2
+        },
+
+        {
+            "x": 832,
+            "y": 768,
+            "width": 3
+        },
+
+        {
+            "x": 896,
+            "y": 832,
+            "width": 2,
+            "type": "bouncy"
+        },
+
+        {
+            "x": 960,
+            "y": 896,
+            "type": "bouncy",
+            "height": 2
+        },
+
+        {
+            "x": 640,
+            "y": 1408,
+            "width": 6
+        },
+
+        {
+            "x": 0,
+            "y": 1344,
+            "width": 6
+        },
+
+        {
+            "x": 0,
+            "y": 1600,
+            "width": 14
+        },
+
+        {
+            "x": 960,
+            "y": 1472
+        },
+
+        {
+            "x": 960,
+            "y": 1728,
+            "height": 4,
+            "type": "bouncy"
+        },
+
+        {
+            "x": 0,
+            "y": 1664,
+            "width": 6
+        },
+
+        {
+            "x": 0,
+            "y": 1728,
+            "width": 4
+        },
+
+        {
+            "x": 0,
+            "y": 1792,
+            "width": 2
+        }
+    ]
+}

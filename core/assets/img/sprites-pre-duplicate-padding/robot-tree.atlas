@@ -1,0 +1,20 @@
+
+robot-tree.png
+size: 64,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+robot-tree
+  rotate: false
+  xy: 2, 83
+  size: 39, 79
+  orig: 39, 79
+  offset: 0, 0
+  index: -1
+robot-tree-frozen
+  rotate: false
+  xy: 2, 2
+  size: 39, 79
+  orig: 39, 79
+  offset: 0, 0
+  index: -1

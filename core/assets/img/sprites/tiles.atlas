@@ -1,0 +1,20 @@
+
+tiles.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bouncy
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+normal
+  rotate: false
+  xy: 67, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

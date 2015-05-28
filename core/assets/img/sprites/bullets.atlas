@@ -1,0 +1,27 @@
+
+bullets.png
+size: 64,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enemy-bullet
+  rotate: false
+  xy: 2, 2
+  size: 18, 10
+  orig: 18, 10
+  offset: 0, 0
+  index: -1
+player-bullet
+  rotate: false
+  xy: 28, 17
+  size: 18, 10
+  orig: 18, 10
+  offset: 0, 0
+  index: -1
+player-super-bullet
+  rotate: false
+  xy: 2, 14
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1

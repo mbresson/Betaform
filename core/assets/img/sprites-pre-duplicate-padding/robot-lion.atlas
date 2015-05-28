@@ -1,0 +1,48 @@
+
+robot-lion.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+robot-lion-1
+  rotate: false
+  xy: 2, 2
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1
+robot-lion-2
+  rotate: false
+  xy: 73, 2
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1
+robot-lion-3
+  rotate: false
+  xy: 144, 2
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1
+robot-lion-4
+  rotate: false
+  xy: 215, 2
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1
+robot-lion-5
+  rotate: false
+  xy: 286, 2
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1
+robot-lion-frozen
+  rotate: false
+  xy: 357, 2
+  size: 69, 70
+  orig: 69, 70
+  offset: 0, 0
+  index: -1

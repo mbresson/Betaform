@@ -1,0 +1,20 @@
+{
+"level": "03-hard",
+"playerSave": {
+	"addons": [
+		{
+			"class": "com.mbresson.betaform.PlayerAddon",
+			"type": "speed",
+			"battery": 121
+		}
+	],
+	"currentAddon": -1,
+	"position": {
+		"x": 9.817097,
+		"y": 10.764998
+	},
+	"health": 40,
+	"score": 2,
+	"battery": 540
+}
+}

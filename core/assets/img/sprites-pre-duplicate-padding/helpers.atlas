@@ -1,0 +1,27 @@
+
+helpers.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hint
+  rotate: false
+  xy: 2, 5
+  size: 42, 70
+  orig: 42, 70
+  offset: 0, 0
+  index: -1
+overlay
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+save
+  rotate: false
+  xy: 46, 19
+  size: 48, 56
+  orig: 48, 56
+  offset: 0, 0
+  index: -1
